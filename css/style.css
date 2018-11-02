@@ -1,0 +1,25 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#fddb92), to(#d1fdff));
+    background-image: -webkit-linear-gradient(bottom, #fddb92 0%, #d1fdff 100%);
+    background-image: -o-linear-gradient(bottom, #fddb92 0%, #d1fdff 100%);
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+canvas {
+  font-family: 'Faster One', cursive;
+  width: 505px;
+  height: 605px;
+  margin: auto;
+}
